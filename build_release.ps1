@@ -18,11 +18,7 @@ Copy-Item profiles.json -Destination dist\
 Copy-Item config.json -Destination dist\
 Copy-Item README_DEPLOY.txt -Destination dist\
 Copy-Item comments.csv -Destination dist\
-Copy-Item comments_history.json -Destination dist\
-Copy-Item likes_history.json -Destination dist\
-
-# Create empty history.txt if not exists, but we want an empty one in dist
-New-Item -ItemType File -Path dist\history.txt -Force | Out-Null
+Copy-Item -Recurse public -Destination dist\
 
 # Create data directory (for xlsx file)
 New-Item -ItemType Directory -Force -Path dist\data | Out-Null

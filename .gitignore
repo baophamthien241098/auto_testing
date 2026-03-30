@@ -1,0 +1,10 @@
+*.exe
+*.db
+main_linux
+dist/
+gpm_data.db
+history.txt
+profiles.json
+*.json
+!config.json
+!.vscode/

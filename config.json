@@ -22,5 +22,7 @@
     "view_probability": 0.8,
     "priority_profiles": [
         "thai_tao_group"
-    ]
+    ],
+    "gemini_api_key": "AIzaSyBHRRV2wqnAYd7QqGlkCZmXd5kTsocr9SI",
+    "gemini_model": "gemini-3.1-flash-lite-preview"
 }
