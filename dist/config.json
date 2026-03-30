@@ -1,0 +1,26 @@
+{
+    "golden_hours": [
+        [
+            8,
+            22
+        ]
+    ],
+    "global_cooldown_min": 15,
+    "global_cooldown_max": 30,
+    "profile_cooldown_min": 180,
+    "profile_cooldown_max": 240,
+    "profile_max": 3,
+    "group_cooldown_min": 60,
+    "xlsx_path": "./video_post.xlsx",
+    "xlsx_sheet": "acc",
+    "comment_probability": 0.3,
+    "like_probability": 0.4,
+    "share_probability": 0.3,
+    "daily_share_limit": 2,
+    "daily_comment_limit": 2,
+    "daily_like_limit": 4,
+    "view_probability": 0.8,
+    "priority_profiles": [
+        "thai_tao_group"
+    ]
+}

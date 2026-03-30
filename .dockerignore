@@ -1,0 +1,11 @@
+.git
+.gitignore
+history.txt
+build_release.ps1
+Dockerfile.release
+main.go
+go.mod
+go.sum
+README.md
+dist/
+gpm-release.zip

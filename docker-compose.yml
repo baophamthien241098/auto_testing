@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    container_name: gpm
+    ports:
+      - "8080:8080"
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    volumes:
+      - ../gpm-data/profiles.json:/app/profiles.json
+      - ../gpm-data/config.json:/app/config.json
+      - ../gpm-data/history.txt:/app/history.txt
+      - ../gpm-data/comments_history.json:/app/comments_history.json
+      - ../gpm-data/comments.csv:/app/comments.csv
+      - ../gpm-data/likes_history.json:/app/likes_history.json
+      - ../gpm-data/views_history.json:/app/views_history.json
+      - ../gpm-data/group_post_history.json:/app/group_post_history.json
+      - ../gpm-data/shares_history.json:/app/shares_history.json
+      - ../gpm-data/golden_window_state.json:/app/golden_window_state.json
+      - ../gpm-data/video_post.xlsx:/app/video_post.xlsx
+    restart: always
